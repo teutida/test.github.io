@@ -1,0 +1,41 @@
+#menu_tutorial {
+    display: none;
+
+}
+
+header label {
+    float: right;
+    font-size: 28px;
+    margin: 6px;
+    cursor: pointer;
+
+}
+
+.menu{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background:rgba(170, 112, 112, 0.4);
+    top: 50;
+    left: 0;
+    visibility: hidden;
+
+
+}
+
+.menu ul li {
+    display: block;
+    color:red;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom:1px solid white;
+}
+
+.menu ul li:hover {
+    background: rgba(108, 116, 218, 0.4);
+}
+
+#menu_tutorial:checked ~ * .menu{
+    visibility: visible;
+}
