@@ -13,11 +13,11 @@ header label {
 
 .menu{
     position: absolute;
-    width: 100%;
+    width: 40%;
     height: 100vh;
     background:rgba(170, 112, 112, 0.4);
     top: 50;
-    left: 0;
+    left: 60%;
     visibility: hidden;
 
 
